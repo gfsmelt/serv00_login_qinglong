@@ -12,7 +12,7 @@ SERV00_WEB_PASS
 PUSH_PLUS_TOKEN
 
 ----------------
-依赖安装paramiko requests jq python-dotenv 
+Python依赖安装paramiko requests jq python-dotenv 
 ----------------
 在 Docker 版青龙面板 中，安装 paramiko、requests、jq和 python-dotenv 需要进入容器内部进行操作。
 docker exec -it qinglong /bin/sh
